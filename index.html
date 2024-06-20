@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website design with Tailwind css</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class=" container min-h-screen px-28 py-5 bg-[url('images/image.png')] bg-cover bg-center relative ">
+    <nav class="flex items-center">
+        <img src="images/logo.png" alt="" class="w-40 cursor-pointer">
+        <ul class="flex-1 text-center">
+            <li class="list-none px-2 inline-block"><a href="#" class=" no-underline px-5 text-white">Home</a></li>
+            <li class="list-none px-2 inline-block"><a href="#" class=" no-underline px-5 text-white">About</a></li>
+            <li class="list-none px-2 inline-block"><a href="#" class=" no-underline px-5 text-white">Features</a></li>
+            <li class="list-none px-2 inline-block"><a href="#" class=" no-underline px-5 text-white">Contact</a></li>
+        </ul>
+        <img src="images/cart.png" alt="" class="w-8 cursor-pointer">
+    </nav>
+    <div class="mt-48 text-white max-w-xl">
+        <h1 class="text-6xl font-semibold leading-normal">Groceries<br>delivery in <span class="font-light"> 15 mins</span></h1>
+        <p>Grocify offer a wide range of products. Including fresh products,meats,dairy,baked goods and non-parishable items.</p>
+
+        <div class="mt-10">
+            <a href="#" class="py-3 px-8 font-medium bg-yellow-400 mr-8 border border-transparent text-white inline-block hover:bg-transparent hover:border-yellow-400 rounded-3xl" >Order now</a>
+            <a href="#">download app <span class="text-lg inline-block rotate-90"> &#10148</span></a>
+        </div>
+        <img src="images/grocery-image.png" alt="" class="w-full xl:w-1/2 xl:absolute bottom-0 right-20 top-10">
+    </div>
+    
+</body>
+</html>
